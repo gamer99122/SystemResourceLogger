@@ -44,7 +44,7 @@ class Program
     {
         var now = DateTime.Now;
         var fileName = $"{now:yyyy-MM-dd}_log.csv";
-        var filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
+        var filePath = Path.Combine(@"D:\C\Desk\Code\Tool\SystemResourceLogger", fileName);
         
         bool fileExists = File.Exists(filePath);
 

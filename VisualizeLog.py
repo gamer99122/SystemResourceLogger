@@ -131,6 +131,9 @@ def generate_report():
         title_text="系統資源鑑識報告 / System Resource Forensics Report",
         height=1200, 
         hovermode="x unified",
+        hoverlabel=dict(
+            namelength=-1,
+        ),
         template="plotly_dark",
         margin=dict(t=100)
     )
